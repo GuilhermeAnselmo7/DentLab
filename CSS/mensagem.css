@@ -1,0 +1,43 @@
+.mensagem {
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_mensagem {
+    max-width: 500px;
+    height: auto;
+}
+.velocidade {
+    color: var(--cor-velocidade);
+    font-weight: bold;
+}
+
+.simplicidade {
+    color: var(--cor-simplicidade);
+    font-weight: bold;
+}
+
+.qualidade {
+    color: var(--cor-qualidade);
+    font-weight: bold;
+}
+
+h6 {
+    margin-top: 24px;
+    text-align: justify;
+}
+
+.hgroup_mensagem {
+    width: 500px;
+}
+
+@media (max-width: 900px) {
+    .mensagem {
+        flex-direction: column;
+    }
+    .hgroup_mensagem {
+        width: auto;
+        padding: 24px;
+    }
+}

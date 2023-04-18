@@ -39,3 +39,16 @@ hgroup {
     grid-row: 2/6;
     grid-column: 9/11;
 }
+
+@media (max-width: 900px){
+    header {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        height: auto;
+    }
+    .imagem_principal {
+        width: 300px;
+        height: auto;
+    }
+}
